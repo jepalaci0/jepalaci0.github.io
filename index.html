@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jorge Palacio | Computer Science ePortfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <h2>Jorge Palacio</h2>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#code-review">Code Review</a>
+                <a href="#software-engineering">Software Design & Engineering</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Introduction -->
+    <header id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">CS 499 Computer Science Capstone</p>
+
+            <h1>Computer Science ePortfolio</h1>
+
+            <p>
+                Welcome to my Computer Science ePortfolio. This portfolio documents
+                my growth throughout the Computer Science program at Southern New
+                Hampshire University and demonstrates how I have improved previous
+                projects through software design, algorithms, and database development.
+            </p>
+
+            <p>
+                The artifacts included here show both the original work and the
+                enhancements I completed during CS 499. Each section explains the
+                purpose of the artifact, the improvements I made, and the skills I
+                developed while working through the enhancement.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Code Review -->
+        <section id="code-review">
+
+            <div class="section-heading">
+                <p class="section-number">CS 499 Milestone One</p>
+                <h2>Code Review</h2>
+            </div>
+
+            <p>
+                Before completing my artifact enhancements, I performed a code review
+                of the projects selected for my ePortfolio. The review examines the
+                existing functionality of each project, areas that could be improved,
+                and the enhancements I planned for software engineering and design,
+                algorithms and data structures, and databases.
+            </p>
+
+            <p>
+                The code review also explains how the planned improvements connect
+                with the Computer Science program outcomes and how the projects
+                demonstrate my growth throughout the program.
+            </p>
+
+
+            <!--
+                Replace YOUR_VIDEO_LINK_HERE after the video is uploaded.
+                YouTube Unlisted is a simple option for the code review.
+            -->
+
+            <div class="button-group">
+
+                <a
+                    class="button primary"
+                    href="YOUR_VIDEO_LINK_HERE"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Watch Code Review
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Software Engineering Enhancement -->
+        <section id="software-engineering">
+
+            <div class="section-heading">
+                <p class="section-number">Enhancement One</p>
+                <h2>Software Design & Engineering</h2>
+            </div>
+
+
+            <h3>PitchEvent Android Application</h3>
+
+            <p>
+                PitchEvent is an Android application I originally created in CS 360.
+                The application allows users to create an account, log in, and create
+                and manage events in a pickup-sports-centered system that can also be
+                adapted for other types of events.
+            </p>
+
+            <p>
+                I selected this artifact because it demonstrates my experience with
+                Java, Android application development, SQLite database operations,
+                and connecting multiple parts of an application into one functioning
+                system.
+            </p>
+
+
+            <div class="artifact-links">
+
+                <div class="artifact-card">
+
+                    <h3>Original Artifact</h3>
+
+                    <p>
+                        The original CS 360 version of PitchEvent before the
+                        CS 499 software engineering enhancement.
+                    </p>
+
+                    <a
+                        class="button secondary"
+                        href="artifacts/PitchEvent-Original.zip"
+                        download>
+                        View Original Artifact
+                    </a>
+
+                </div>
+
+
+                <div class="artifact-card">
+
+                    <h3>Enhanced Artifact</h3>
+
+                    <p>
+                        The enhanced version contains the software design,
+                        functionality, database, validation, and security improvements
+                        completed during CS 499.
+                    </p>
+
+                    <a
+                        class="button primary"
+                        href="artifacts/PitchEvent-Enhanced.zip"
+                        download>
+                        View Enhanced Artifact
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <h3>Enhancement Narrative</h3>
+
+            <p>
+                For this enhancement, I focused on improving how events are created
+                and edited. I added an improved event lifecycle that allows events
+                to move through statuses such as Upcoming, Reminder Due, Completed,
+                and Archived. The status is stored in SQLite so it remains after
+                restarting the application or logging out.
+            </p>
+
+            <p>
+                I also improved the original event model. Previously, date and time
+                were stored together and location and notes were stored as one long
+                string. This caused problems when editing an event, so I separated
+                date, time, location, and notes into individual database fields. I
+                also added more complete input validation, improved database update
+                handling, and changed password storage so passwords are hashed rather
+                than stored as readable plain text.
+            </p>
+
+            <p>
+                These changes helped me work toward the course outcomes related to
+                software engineering, design, and security. Instead of simply adding
+                another feature, I had to consider how the event model, database,
+                activities, and RecyclerView adapter worked together. The enhanced
+                application keeps the original purpose and appearance of the CS 360
+                project while improving its structure, modularity, and functionality.
+            </p>
+
+
+            <h3>Reflection</h3>
+
+            <p>
+                One of the most important things I learned from this enhancement was
+                how quickly a change to one part of an application can affect several
+                other components. Changing the Event model required updates to the
+                database, event activity, adapter, and add/edit activity.
+            </p>
+
+            <p>
+                I also worked through several build errors, including XML formatting
+                issues and code being placed in the wrong Java files. Troubleshooting
+                these problems reinforced the importance of making changes in smaller
+                steps and testing frequently. After working through these issues, I
+                was able to successfully build and test the application and confirm
+                that the enhanced functionality worked as intended.
+            </p>
+
+
+            <div class="skills">
+
+                <h3>Skills Demonstrated</h3>
+
+                <div class="skill-list">
+                    <span>Java</span>
+                    <span>Android Studio</span>
+                    <span>SQLite</span>
+                    <span>Object-Oriented Programming</span>
+                    <span>Input Validation</span>
+                    <span>Password Security</span>
+                    <span>Application Design</span>
+                    <span>Troubleshooting</span>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Jorge Palacio | Computer Science ePortfolio | Southern New Hampshire University
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
