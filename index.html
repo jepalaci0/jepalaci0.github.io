@@ -21,6 +21,7 @@
                 <a href="#home">Home</a>
                 <a href="#code-review">Code Review</a>
                 <a href="#software-engineering">Software Design & Engineering</a>
+                <a href="#algorithms">Algorithms & Data Structures</a>
             </div>
         </div>
     </nav>
@@ -77,9 +78,6 @@
                 with the Computer Science program outcomes and how the projects
                 demonstrate my growth throughout the program.
             </p>
-
-
-            
 
             <div class="button-group">
 
@@ -227,6 +225,141 @@
                     <span>Password Security</span>
                     <span>Application Design</span>
                     <span>Troubleshooting</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Algorithms and Data Structures Enhancement -->
+        <section id="algorithms">
+
+            <div class="section-heading">
+                <p class="section-number">Enhancement Two</p>
+                <h2>Algorithms & Data Structures</h2>
+            </div>
+
+
+            <h3>Grazioso Salvare Rescue Dashboard</h3>
+
+            <p>
+                The Grazioso Salvare Rescue Dashboard was originally created in
+                CS 340 using Python, MongoDB, and Dash. The application was designed
+                to search and display animal shelter records for possible rescue-animal
+                candidates.
+            </p>
+
+            <p>
+                I selected this artifact because the original rescue filtering was
+                based mostly on whether an animal met a fixed set of requirements.
+                This gave me an opportunity to improve how possible rescue animals
+                were evaluated and demonstrate more advanced algorithmic decision
+                making.
+            </p>
+
+
+            <div class="artifact-links">
+
+                <div class="artifact-card">
+
+                    <h3>Original Artifact</h3>
+
+                    <p>
+                        The original CS 340 version of the Grazioso Salvare dashboard
+                        before the CS 499 algorithms and data structures enhancement.
+                    </p>
+
+                    <a
+                        class="button secondary"
+                        href="artifacts/Grazioso-Salvare-Original.zip"
+                        download>
+                        View Original Artifact
+                    </a>
+
+                </div>
+
+
+                <div class="artifact-card">
+
+                    <h3>Enhanced Artifact</h3>
+
+                    <p>
+                        The enhanced version adds weighted scoring, ranking, sorting,
+                        and a consistent tiebreaker to improve how rescue candidates
+                        are evaluated.
+                    </p>
+
+                    <a
+                        class="button primary"
+                        href="artifacts/Grazioso-Salvare-Algorithms-Enhanced.zip"
+                        download>
+                        View Enhanced Artifact
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <h3>Enhancement Narrative</h3>
+
+            <p>
+                For this enhancement, I replaced the original pass/fail rescue filtering
+                with a weighted scoring and ranking system. I moved the rescue
+                requirements into a more structured format and gave weights to breed,
+                age, and sex. Each candidate can receive up to ten points, and the
+                results are sorted from highest to lowest score.
+            </p>
+
+            <p>
+                I also added the rescue score directly to the dashboard so the ranking
+                is visible to the user. When animals receive the same score, the animal
+                ID is used as a consistent tiebreaker. These changes demonstrate data
+                structures, conditional logic, weighted comparisons, and sorting.
+            </p>
+
+            <p>
+                I believe this enhancement supports Course Outcomes 3 and 4. Outcome 3
+                is shown by redesigning the original filtering system into an algorithm
+                that evaluates and ranks the animals. I also weighed the difference
+                between using MongoDB to narrow the candidates and Python to perform the
+                scoring and sorting. Outcome 4 is demonstrated by applying these
+                techniques to improve an existing application while keeping its
+                original functionality close to the CS 340 project.
+            </p>
+
+
+            <h3>Reflection</h3>
+
+            <p>
+                One challenge was getting an older project that originally ran in the
+                SNHU Codio environment working locally on my device again. I had to
+                reconnect MongoDB, restore the animal dataset, and update the older
+                Dash setup before I could fully test the enhancement.
+            </p>
+
+            <p>
+                This process showed me that improving an application does not always
+                require rebuilding it. Changing how the existing data is processed
+                made the application more useful while keeping the original design
+                and purpose intact.
+            </p>
+
+
+            <div class="skills">
+
+                <h3>Skills Demonstrated</h3>
+
+                <div class="skill-list">
+                    <span>Python</span>
+                    <span>MongoDB</span>
+                    <span>Dash</span>
+                    <span>Algorithm Design</span>
+                    <span>Weighted Scoring</span>
+                    <span>Sorting</span>
+                    <span>Conditional Logic</span>
+                    <span>Data Processing</span>
                 </div>
 
             </div>
